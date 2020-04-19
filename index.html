@@ -1,0 +1,194 @@
+<!DOCTYPE html> 
+<html id="top">   
+    <head>     
+        <meta charset="UTF-8"> 
+
+      <title>​Front End Project​</title>   
+
+      <link href="styles.css" rel="stylesheet" type="text/css">
+
+      <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700'  rel='stylesheet' type='text/css'>   
+
+      <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet"> 
+
+    
+
+    </head> 
+    
+    
+
+    <body>     
+
+        <header>
+
+            <!--Top Half of Site-->
+
+            <div class="half-width">
+
+                <h1>Nicky's Web Dev</h1>
+
+                <h2 id="consider"><span  id="hey">Hey there,</span> consider this my first front end project!</h2>
+
+            </div>
+
+            <div class="half-width">
+
+
+                <nav>
+
+                    <ul>
+                        <li><a href="#js1">JavaScript Testing</a></li>
+                        <li><a href="#about">About Me</a></li>
+                    </ul>
+
+
+                </nav>
+
+
+            </div>
+
+            
+        </header>
+            <!--End Top Half of Site-->
+
+<main>
+
+
+    <section id="js1">
+        <center>  
+        <h1 style="background-color: blanchedalmond; padding: 20px;">Time to test out some JavaScript shenanigans:</h1>
+        <br>
+        <br>
+
+        <!--Figure out why button will not position properly below bio card-->
+
+        <div class ="card2">
+            <h1 class="title">This box is a toy!</h1>
+            
+            <h2 id="showname"></h2>
+            <form>
+                <input type="text" id="name" placeholder="Type stuff here:">
+                <br>
+                <br>
+                <input type="submit" value="Submit" onclick="formSubmit()">
+                
+
+            </form>
+      
+
+        </div>
+        </center>
+  <!--End of JS exercise 1-->
+
+<br>
+<br>
+<br>
+    <center>
+       <div class="card2">
+           <h1 class="title">More JS functions: color change</h1>
+
+           <p id="words">Stare at guinea pigs chase after silly colored fish toys around the house but there's a forty year old lady there let us feast, mouse chase mice. Chase the pig around the house murf pratt ungow ungow. Give attitude sleep on keyboard stretch, yet sit on human but that box? i can fit in that box and you are a captive audience while sitting on the toilet, pet me but carefully drink from water glass and then spill it everywhere and proceed to lick the puddle. Annoy owner until he gives you food say meow repeatedly until belly rubs, feels good sleep on my human's head so as lick i the shoes always hungry mouse stare at owner accusingly then wink yet get my claw stuck in the dog's ear. Paw at beetle and eat it before it gets away walk on car leaving trail of paw prints on hood and windshield, yet trip on catnip. White cat sleeps on a black shirt spend six hours per day washing, but still have a crusty butthole for love or nya nya nyan. Meow meow to be let in, eat grass, throw it back up milk the cow. 
+        </p>
+        <br>
+
+        <input type="submit" onclick="changeText()" value="Change the text"></button>
+
+       </div>
+      
+    </center>
+
+
+<!--End of JS exercise 2-->
+
+
+<center>
+    <br>
+    <br>
+    <br>
+<div class="card2">
+
+    <form>
+     
+        <h1 class="title">Eliminate the fruit!</h1>
+        <select id="fruitSelect">
+
+            <option>Pineapple</option>
+            <option>Mango</option>
+            <option>Avocado</option>
+            <option>Grapes</option>
+            <option>Cherries</option>
+
+
+        </select>
+
+        <br>
+        <br>
+        <input type="button" onclick="removeFruit()" value="Select and Remove">
+
+    </form>
+
+
+</div>
+</center>
+
+</section>
+
+<!--End of JS exercise 3-->
+
+<br>
+<br>
+<br>
+
+<!--
+<hr style="color: rgba(180, 21, 95, 0.11)"> -->
+
+<section id="about">
+<center>
+        <div class="full-width">
+                <h2 style="font-size: 35px;">My Bio</h2>
+
+
+            <div class="card">
+
+                <img src="img/me-hat.jpg" alt="Nicky" style="width: 100%">
+                <p class="title">Junior Software Developer</p>
+                <p>Free Code Camp</p>
+                <p>
+                <a href="https://www.instagram.com/nikitaj.designs/" class="title">Graphic Designer</a>
+                <br>
+                <font size="-1">
+                Coding is so fun!</font>
+                </p>
+
+                <div class="bioContact"><p><a href="mailto:nikita_johnson@hotmail.com">Contact</a></p></div>
+
+            </div>
+
+        </div>
+
+
+        <div class="bioContact" style="background-color: rgba(165, 42, 42, 0.397); margin: 60px 0 100px 0;"><p><a href="#top"><strong>Back to Top</strong></a></p></div>
+
+    </center>
+
+
+    </section>
+
+
+    
+
+<!--End of About section-->
+
+    <footer id="footer">
+    
+        ©2020 Nicky J Designs
+
+    </footer>
+
+
+    <script src="JS practice/main.js"></script>
+
+</main>
+
+    </body> 
+</html>

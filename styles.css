@@ -1,0 +1,176 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    color: rgb(196, 8, 111);
+    background-color:blanchedalmond;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    }
+
+#about{
+    height: 600px;
+    }
+
+.half-width{
+    width: 600px;
+    float: left;
+    }
+
+.half-width, h2{
+    color: rgb(180, 21, 95);
+    }
+
+#hey{
+    color: rgb(248, 237, 240)
+    }
+
+#consider{
+    color: #fbff25
+     }   
+
+main {
+    margin: 0;
+}
+
+header{
+    height: 700px;
+    background: url("img/lavendar.jpg");
+    background-size: cover;
+    margin-top: 0;
+    margin-left: 0;
+    }
+
+header h1{
+    padding: 50px;
+    font-family:  'Lora', serif;
+    color: blanchedalmond;
+    font-size: 30px;
+    }
+
+nav {
+    float: right;
+    padding: 75px 40px;
+    }
+
+nav ul li{
+    display: inline-block;
+    }
+
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-left: 80px;
+}
+
+header h2{
+    width: auto;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: normal;
+    color: rgb(20, 19, 19);
+    padding: 20px;
+}
+
+header h2 span{
+    color: #2b2b2b;
+}
+
+/* section 2 and 3 */
+
+#about .full-width{
+    padding: 10px 0;
+    }
+
+#about h2{
+    font-size: 21px;
+    color: rgb(180, 21, 95);
+    line-height: 42px;
+    padding: 0 0 15 0;
+}
+
+.card{
+    box-shadow: 0 10px 16px 0 rgba(68, 3, 3, 0.514);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 250, 240, 0.582);
+}
+
+.card2{
+    box-shadow: 0 10px 16px 0 rgba(68, 3, 3, 0.514);
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(255, 250, 240, 0.712);
+}
+
+.title{
+    color: darkslategray;
+    font-size: 22px;
+}
+
+
+.bioContact{
+    height: 35px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    margin-bottom: .5em;
+    padding: 6px;
+    color: white;
+    background-color: rgb(180, 21, 95);
+    cursor: pointer;
+    width: 50%;
+    font-size: 24px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.bioContact p{
+    position: relative;
+    bottom: 21px;
+    }
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    }    
+
+ .jsButton{
+    box-shadow: 0 10px 16px 0 rgba(68, 3, 3, 0.514);
+    max-width: 400px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    background-color: rgba(255, 250, 240, 0.582);
+    display: inline-block;
+    }
+
+
+footer{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+    color: rgb(180, 21, 95);
+    font-size: 13px;
+}
+
+#js1{
+    padding: 40px 0 100px 0;
+    background-color: rgb(233, 195, 209);
+    margin-left: 0;
+    position: center;
+}
+
